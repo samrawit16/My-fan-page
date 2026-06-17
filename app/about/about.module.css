@@ -1,0 +1,101 @@
+/* app/about/about.module.css */
+
+.aboutContainer {
+  display: flex;
+  flex-direction: column; /* Stack top profile block over the bottom matrix */
+  align-items: center;
+  gap: 3rem;
+  padding: 3rem 1rem;
+  width: 100%;
+}
+
+.profileCard {
+  background: #ffffff;
+  border-radius: 24px;
+  padding: 3rem 2rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  max-width: 450px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border: 1px solid #e2e8f0;
+}
+
+.avatarWrapper {
+  width: 160px;
+  height: 160px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 1.5rem;
+  border: 4px solid #6366f1;
+  box-shadow: 0 4px 15px rgba(99, 102, 241, 0.25);
+  background: #f8fafc;
+}
+
+.avatarImage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.profileCard h1 {
+  font-size: 2rem;
+  color: #1a1a2e;
+  margin-bottom: 0.75rem;
+}
+
+.introText {
+  font-size: 1.1rem;
+  color: #475569;
+  line-height: 1.6;
+}
+
+.introText strong {
+  color: #6366f1;
+}
+
+/* 🛠️ Strict Grid Engine: 4 Columns across, 2 Rows down */
+.aboutGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Forces 4 equal columns */
+  grid-template-rows: repeat(2, auto);    /* Forces 2 equal rows */
+  gap: 1.5rem;
+  width: 100%;
+  max-width: 1100px; /* Expands width box so 4 horizontal cards look comfortable */
+  margin-top: 1rem;
+}
+
+/* Individual Grid Matrix Box Styling */
+.gridCard {
+  background: #ffffff;
+  border-radius: 16px;
+  padding: 1.5rem;
+  text-align: center;
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.04);
+  border: 1px solid #e2e8f0;
+  transition: transform 0.2s ease, border-color 0.2s ease;
+}
+
+.gridCard:hover {
+  transform: translateY(-4px);
+  border-color: #6366f1;
+}
+
+.gridEmoji {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+.gridCard h3 {
+  font-size: 1.2rem;
+  color: #1a1a2e;
+  margin-bottom: 0.25rem;
+}
+
+.gridCard p {
+  font-size: 0.9rem;
+  color: #64748b;
+  line-height: 1.4;
+}

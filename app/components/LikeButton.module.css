@@ -1,0 +1,28 @@
+/* app/components/LikeButton.module.css */
+.unliked, .liked {
+  border: 1px solid #cbd5e1;
+  padding: 0.4rem 0.8rem;
+  border-radius: 20px;
+  cursor: pointer;
+  font-size: 0.85rem;
+  font-weight: 500;
+  margin-top: 1rem;
+  transition: all 0.15s ease;
+  display: inline-block;
+}
+
+.unliked {
+  background: #ffffff;
+  color: #334155;
+}
+
+.unliked:hover {
+  background: #f8fafc;
+  border-color: #94a3b8;
+}
+
+.liked {
+  background: #fee2e2;
+  color: #ef4444;
+  border-color: #fca5a5;
+}
