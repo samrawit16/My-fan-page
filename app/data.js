@@ -2,18 +2,18 @@
 export const items = [
   {
     id: "game-1",
-    name: "The Legend of Zelda: Outer Wilds",
+    name: "Samrawit Yisak, Student of Akirachix",
     emoji: "🚀",
     image: "/hades.jpg",
-    blurb: "An incredible space exploration puzzle game where you solve a cosmic mystery in a time loop.",
+    blurb: "I love Reading a fiction, playing video games and spending time with my family.",
     rating: 5,
     genre: "genere 1"
   },
   {
     id: "game-2",
-    name: "Hades",
+    name: "Netflix",
     emoji: "🔥",
-    blurb: "A fast-paced rogue-like with incredible art, stellar voice acting, and addictive combat.",
+    blurb: "Netflix is the world's leading subscription-based streaming service.",
     image: "/netflix.jpg",
     rating: 5,
     genre: "genere 2"
@@ -40,7 +40,7 @@ export const items = [
     id: "game-5",
     name: "Elden Ring",
     emoji: "⚔️",
-    image: "/6_l.jpg",
+    image: "https://i.pinimg.com/1200x/40/7c/35/407c35641359ca9988faf5f157b60513.jpg",
     blurb: "A massive, challenging open-world action RPG filled with secrets and epic bosses.",
     rating: 5,
     genre: "RPG"
@@ -49,7 +49,7 @@ export const items = [
     id: "game-6",
     name: "Stardew Valley",
     emoji: "🧑‍🌾",
-    image: "/1648924440422.jpeg",
+    image: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/header.jpg?t=1754692865",
     blurb: "A cozy and relaxing farming simulation game where you build your dream countryside homestead.",
     rating: 5,
     genre: "Simulation"
