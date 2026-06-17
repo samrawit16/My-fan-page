@@ -40,7 +40,7 @@ export const items = [
     id: "game-5",
     name: "Elden Ring",
     emoji: "⚔️",
-    image: "https://i.pinimg.com/1200x/40/7c/35/407c35641359ca9988faf5f157b60513.jpg",
+    image: "/gridd1.jpg",
     blurb: "A massive, challenging open-world action RPG filled with secrets and epic bosses.",
     rating: 5,
     genre: "RPG"
@@ -49,7 +49,7 @@ export const items = [
     id: "game-6",
     name: "Stardew Valley",
     emoji: "🧑‍🌾",
-    image: "https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/413150/header.jpg?t=1754692865",
+    image: "/stadelyll.jpg",
     blurb: "A cozy and relaxing farming simulation game where you build your dream countryside homestead.",
     rating: 5,
     genre: "Simulation"
