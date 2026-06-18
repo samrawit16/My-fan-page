@@ -50,7 +50,7 @@ export const items = [
     name: "Stardew Valley",
     emoji: "🧑‍🌾",
     image: "/stadelyll.jpg",
-    blurb: "A cozy and relaxing farming simulation game where you build your dream countryside homestead.",
+    blurb: "The funniest thing about Stardew Valley is how players use the game's quirky prompts.",
     rating: 5,
     genre: "Simulation"
   },
@@ -76,37 +76,37 @@ export const items = [
     id: "game-9",
     name: "The Witcher 3",
     emoji: "🐺",
-    image: "/videogame7.jpg",
-    blurb: "An incredible story-driven open world adventure tracking a professional monster hunter.",
+    image: "/carta.jpg",
+    blurb: "Sleeping Queens is a super fun card game for kids and families.",
     rating: 5,
-    genre: "RPG"
+    genre: "Guesing"
   },
   {
     id: "game-10",
-    name: "Cyberpunk 2077",
+    name: "Rummikub",
     emoji: "🤖",
-    image: "/videogame6.jpg",
-    blurb: "An open-world action adventure story set in Night City, a megalopolis obsessed with power.",
+    image: "/six diagonal.jpg",
+    blurb: "Rummikub was invented by Ephraim Hertzano, a Romanian-born Jew, who emigrated to Israel after World War II",
     rating: 4,
-    genre: "Action"
+    genre: "Thinking"
   },
   {
     id: "game-11",
-    name: "Red Dead Redemption 2",
+    name: "Ludo Game Play 2",
     emoji: "🤠",
-    image: "/videogame2.jpg",
-    blurb: "An epic tale of life in America’s unforgiving heartland during the dawn of the modern age.",
+    image: "/ludo.jpg",
+    blurb: "Ludo is a game of unexpected twists where a single die roll can instantly send a winning piece back to the start",
     rating: 5,
-    genre: "Adventure"
+    genre: "Interesting"
   },
   {
     id: "game-12",
-    name: "Skyrim",
+    name: "Chess",
     emoji: "🐉",
-    image: "/videogame1.jpg",
-    blurb: "The legendary open-world fantasy epic that lets you be whoever you want and do whatever you want.",
+    image: "/chess.jpg",
+    blurb: "Chess is a board game for two players, played on a square board consisting of 64 squares arranged in an 8×8 grid",
     rating: 4,
-    genre: "RPG"
+    genre: "Sharp Minded"
   }
  
  
